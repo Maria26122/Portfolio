@@ -9,7 +9,7 @@ body{
 }
 .container{
     display: flex;
-    background-image: url();
+
 }
 .half-width{
    width:50% ;
@@ -17,7 +17,7 @@ body{
 
 }
 .half-width img{
-    width: 60%;
+    width: 50%;
     padding-top: 10%;
 }
 .half-width p{
@@ -29,4 +29,56 @@ body{
     background-image: linear-gradient(rgb(237, 132, 237),lightblue);
     padding: 5px 15px;
     border-radius: 5px;
+}
+#link2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(183, 236, 159),rgb(228, 75, 162));
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+    .second-part{
+        display: flex;
+margin-top: 100px;
+
+}
+.third-part{
+    margin: 100px 100px;
+    
+
+}
+#last{
+    display: flex;
+}
+.developer{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 10px 5px 30px lightskyblue ;
+}
+.developer p{
+    text-align: justify;
+    width: 80%;
+}
+.developer h3{
+    color: coral;
+}
+#border1{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue,hotpink) ;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#border2{
+    border-left: 5px solid;
+    border-image:linear-gradient(purple,rgb(225, 142, 184)) ;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.heading{
+    padding-bottom: 50px;
+}
+#footer
+{
+    text-align: center;
 }
